@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{A00E7DCA-7629-4E40-8489-C830A589094A}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{16DC8186-4DEC-41AF-80A0-F8C655838299}">
+				<Data Description="Runs a test from the project." TestName="Test1" FullName="KeywordTests - Test1" Path="KeywordTests|Test1" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{C7A9BA56-E205-4884-80F3-41D0685CAE86}" />
+</Root>

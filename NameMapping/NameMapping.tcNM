@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{DA16A8CF-8435-42E2-91D7-4D8C0B88C4C5}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{99FFB826-5080-4D9D-A01D-DF1FDF8E8325}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{81CCD12C-AD71-4498-9C8A-7E6587EF41A0}">
+								<Image FileName="724203380" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<TypeInfo Item0="{2092531B-4016-4E93-BB7F-5E2BAB69B884}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageBlazedemoCom" Key="{179BED55-F971-4487-B5AC-E373C12251AB}">
+								<Image FileName="-1857049574" Left="0" Top="128" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{5247AC00-5118-444F-94DB-04B851A4EAA6}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://blazedemo.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="selectFromport" Key="{A62C0BBB-E6B0-40E2-971A-54A666AF817E}">
+										<Image FileName="-1943115184" Left="229" Top="391" Right="504" Bottom="429" />
+										<TypeInfo Item0="{CACEDFA6-1264-4F43-B636-23D78769630E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@name=&apos;fromPort&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectToport" Key="{104DE013-D9CC-405B-983B-2E8E31A5BC6E}">
+										<Image FileName="-1463914697" Left="229" Top="516" Right="504" Bottom="554" />
+										<TypeInfo Item0="{CACEDFA6-1264-4F43-B636-23D78769630E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@name=&apos;toPort&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonFindFlights" Key="{A0589B71-BF4B-46C7-9E0A-E8B954CE4066}">
+										<Image FileName="-164000056" Left="229" Top="578" Right="352" Bottom="616" />
+										<TypeInfo Item0="{3D6AD006-BE82-4550-9B8F-9442D84FE7D3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Find Flights&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageReserve" Key="{83E5AB15-6A48-437E-B739-C590C27F2725}">
+								<Image FileName="-1857049574" Left="0" Top="128" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{5247AC00-5118-444F-94DB-04B851A4EAA6}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://blazedemo.com/reserve.php" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="submitbuttonChooseThisFlight" Key="{695838A9-C38B-40F0-9610-5C8135355E97}">
+										<Image FileName="2004463422" Left="239" Top="404" Right="390" Bottom="437" />
+										<TypeInfo Item0="{3D6AD006-BE82-4550-9B8F-9442D84FE7D3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[3]/td/input[@value=&apos;Choose This Flight&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[3]/td/input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[3]/td/input[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[3]/td/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pagePurchase" Key="{2BD12BBC-E620-404B-9F89-AA7621CDDBEB}">
+								<Image FileName="-1857049574" Left="0" Top="128" Right="1920" Bottom="1020" />
+								<TypeInfo Item0="{5247AC00-5118-444F-94DB-04B851A4EAA6}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://blazedemo.com/purchase.php" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxName" Key="{0DADCFEC-E4FA-45F1-91EA-D3FF129844E3}">
+										<Image FileName="-897258040" Left="218" Top="287" Right="493" Bottom="325" />
+										<TypeInfo Item0="{01A2BB0B-D151-42ED-9ECD-D8DDF7D5081A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#inputName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;inputName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxAddress" Key="{D2F2F307-0674-4894-9281-81560AF4488B}">
+										<Image FileName="1764066539" Left="218" Top="381" Right="493" Bottom="419" />
+										<TypeInfo Item0="{01A2BB0B-D151-42ED-9ECD-D8DDF7D5081A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Address&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#address" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;address&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCity" Key="{7780C672-30F8-4ACA-8FA6-E468EBFD620E}">
+										<Image FileName="-307612196" Left="218" Top="474" Right="493" Bottom="512" />
+										<TypeInfo Item0="{01A2BB0B-D151-42ED-9ECD-D8DDF7D5081A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;City&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#city" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;city&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxState" Key="{2E72E6E2-6774-4619-B61E-69B44AB6BC08}">
+										<Image FileName="544830537" Left="218" Top="568" Right="493" Bottom="606" />
+										<TypeInfo Item0="{01A2BB0B-D151-42ED-9ECD-D8DDF7D5081A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;State&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#state" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;state&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxZipCode" Key="{A569C7A8-309B-492E-AECA-70394BDE3997}">
+										<Image FileName="-1548903633" Left="218" Top="662" Right="493" Bottom="700" />
+										<TypeInfo Item0="{01A2BB0B-D151-42ED-9ECD-D8DDF7D5081A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Zip Code&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#zipCode" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;zipCode&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCreditCardNumber" Key="{6F1B85E7-7150-49CC-8FB1-81EAFF2A99C3}">
+										<Image FileName="-1321951960" Left="218" Top="599" Right="493" Bottom="637" />
+										<TypeInfo Item0="{01A2BB0B-D151-42ED-9ECD-D8DDF7D5081A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Credit Card Number&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#creditCardNumber" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;creditCardNumber&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxYear" Key="{B7F7E8E7-DB90-4DA7-B2F4-CFC07CED56BE}">
+										<Image FileName="-1834428347" Left="218" Top="787" Right="493" Bottom="825" />
+										<TypeInfo Item0="{01A2BB0B-D151-42ED-9ECD-D8DDF7D5081A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Year&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#creditCardYear" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;creditCardYear&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[9]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxNameOnCard" Key="{8A9EF090-E7A6-48A2-9BBB-99C3D17B0754}">
+										<Image FileName="1351589282" Left="218" Top="881" Right="493" Bottom="919" />
+										<TypeInfo Item0="{01A2BB0B-D151-42ED-9ECD-D8DDF7D5081A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Name on Card&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#nameOnCard" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;nameOnCard&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonPurchaseFlight" Key="{F51465A1-8964-4D08-8906-41D329BA5DED}">
+										<Image FileName="1492358602" Left="218" Top="958" Right="372" Bottom="996" />
+										<TypeInfo Item0="{3D6AD006-BE82-4550-9B8F-9442D84FE7D3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Purchase Flight&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[11]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{99FFB826-5080-4D9D-A01D-DF1FDF8E8325}">
+			<Child Name="BrowserWindow" Owner="{81CCD12C-AD71-4498-9C8A-7E6587EF41A0}" />
+			<Child Name="pageBlazedemoCom" Owner="{179BED55-F971-4487-B5AC-E373C12251AB}">
+				<Child Name="selectFromport" Owner="{A62C0BBB-E6B0-40E2-971A-54A666AF817E}" />
+				<Child Name="selectToport" Owner="{104DE013-D9CC-405B-983B-2E8E31A5BC6E}" />
+				<Child Name="submitbuttonFindFlights" Owner="{A0589B71-BF4B-46C7-9E0A-E8B954CE4066}" />
+			</Child>
+			<Child Name="pageReserve" Owner="{83E5AB15-6A48-437E-B739-C590C27F2725}">
+				<Child Name="submitbuttonChooseThisFlight" Owner="{695838A9-C38B-40F0-9610-5C8135355E97}" />
+			</Child>
+			<Child Name="pagePurchase" Owner="{2BD12BBC-E620-404B-9F89-AA7621CDDBEB}">
+				<Child Name="textboxName" Owner="{0DADCFEC-E4FA-45F1-91EA-D3FF129844E3}" />
+				<Child Name="textboxAddress" Owner="{D2F2F307-0674-4894-9281-81560AF4488B}" />
+				<Child Name="textboxCity" Owner="{7780C672-30F8-4ACA-8FA6-E468EBFD620E}" />
+				<Child Name="textboxState" Owner="{2E72E6E2-6774-4619-B61E-69B44AB6BC08}" />
+				<Child Name="textboxZipCode" Owner="{A569C7A8-309B-492E-AECA-70394BDE3997}" />
+				<Child Name="textboxCreditCardNumber" Owner="{6F1B85E7-7150-49CC-8FB1-81EAFF2A99C3}" />
+				<Child Name="textboxYear" Owner="{B7F7E8E7-DB90-4DA7-B2F4-CFC07CED56BE}" />
+				<Child Name="textboxNameOnCard" Owner="{8A9EF090-E7A6-48A2-9BBB-99C3D17B0754}" />
+				<Child Name="submitbuttonPurchaseFlight" Owner="{F51465A1-8964-4D08-8906-41D329BA5DED}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
